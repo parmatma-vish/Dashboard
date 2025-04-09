@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+h1,h2{
+    color: #444;
+}
+
+.btn{
+    background-color: #f05462;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.btn:hover{
+    background-color: #960deb;
+    color: white;
+    transition: 0.2s;
+    text-align: center;
+    
+
+}
+
+i ri-search-line{
+    position: absolute;
+    color:  #f05462;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.side-menu{
+    position: fixed;
+    background-color: #f05462;
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.side-menu .brand-name{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.side-menu li{
+    font-size: 24px;
+    padding: 10px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.side-menu li:hover{
+    background-color: white;
+    color: #f05462;
+}
+
+.container{
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.container .header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80vw;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+  
+}
+
+.container .header .nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
+ 
+  
+}
+
+.container .header .nav .search{
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    font-size: 18px;
+    
+}
+
+.container .header .nav .search input[type="text"]{
+    border: none;
+    background-color: #f1f1f1;
+    padding: 10px;
+    width: 50%;
+    font-size: 18px;
+    border-radius: 5px;
+} 
+
+.container .header .nav .search button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    gap: 4px; 
+    border-radius: 5px;
+ 
+}
+
+.container .header .nav .search button i{
+    position: relative;
+    color:  #f05462;
+    font-size: 20px;
+    font-weight: 400;
+    
+
+}
+
+.container .header .nav .search .user{
+
+    flex: 1; 
+}  
