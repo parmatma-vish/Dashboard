@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form and user input</title>
+
+    <style>
+
+            html, body{
+                background-color: #434383;
+            }
+
+        form{
+            width: 500px;
+            height: 400px;
+            background-color: rgb(59, 67, 99);
+            border-radius: 10px;
+            padding: 1rem;
+            filter: drop-shadow(0px 0px 10px rgba(170, 172, 170, 0.6));
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+         
+        }
+
+       
+
+        h2{
+            text-align: center;
+            letter-spacing: 0.4px;
+            font-size: 30px;
+            margin-bottom: 3rem;
+            padding-top: 20px;
+            color: white;
+            filter: drop-shadow(0px 0px 10px rgba(170, 172, 170, 0.6));
+        }
+
+        label{
+            display: inline-block;
+            width: 200px;
+            margin: 5px;
+            padding: 10px;
+            font-size: 18px;
+            padding-left: 20px;
+            font-weight: 600;
+            letter-spacing: 0.4px;
+             color: white;
+            text-shadow: 0px 0px 10px rgb(158, 148, 148, 0.5);
+            
+        }
+
+        input{
+            height: 20px;
+            width: 220px;
+            border-radius: 5px;
+            border: 1px solid rgb(117, 113, 113);
+            outline-color: blue;
+            padding: 5px 5px;
+            margin-bottom: 30px;
+            font-size: 16px;
+            letter-spacing: 0.2px;
+        }
+
+
+        button{
+             padding: 10px 20px;
+             margin-left: 2rem;
+             margin-bottom: 20px;
+             border-radius: 5px;
+             border: none;
+             background-color: darkgreen;
+             color: white;
+             font-size: 14px;
+             letter-spacing: 0.2px;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="" method="">
+    
+      
+        <h2>Register Form</h2>
+        <div>
+            <label for="fname">FirstName</label>
+            <input type="text" name="FirstName" id="fname">
+        </div>
+
+          <div>
+            <label for="lname">LastName</label>
+            <input type="text" name="LastName" id="lname">
+        </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email">
+        </div>
+
+        <button type="submit">Register </button>
+        <button type="reset">Reset Form</button>
+        
+    </form>
+</body>
+</html>
